@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Boiler Music Group'
+theme = "dream"
+defaultContentLanguage = "en"
+
+[params]
+#zenMode = true
+lightTheme = "emerald"
+darkTheme = "forest"
+rss = true
+email = "donald@boilermusicgroup.com"
+siteStartYear = 2025
+favicon = "favicon.ico"
+stickyNav = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+collapseNavItems = ["posts", "categories", "tags"]
+noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+reorderShares = ["x", "facebook", "whatsapp"]
