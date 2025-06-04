@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
 #zenMode = true
 lightTheme = "emerald"
 darkTheme = "forest"
+avatar = "img/BoilerRecords-v2.png"
 rss = true
 email = "donald@boilermusicgroup.com"
 siteStartYear = 2025
