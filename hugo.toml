@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Boiler Music Group'
-theme = "dream"
+theme = "bmg"
 defaultContentLanguage = "en"
 
 [params]
@@ -20,8 +20,8 @@ showPrevNextPost = true
 reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
 collapseNavItems = ["posts", "categories", "tags"]
 noDefaultSummaryCover = true
-showTableOfContents = true
-showSummaryCoverInPost = true
-imageZoomableInPost = true
-showPrevNextPost = true
+# showTableOfContents = true
+# showSummaryCoverInPost = true
+# imageZoomableInPost = true
+# showPrevNextPost = true
 reorderShares = ["x", "facebook", "whatsapp"]
