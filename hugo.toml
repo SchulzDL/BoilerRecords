@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Boiler Music Group'
-theme = "bmg"
+theme = "dream"
 defaultContentLanguage = "en"
 
 [params]
