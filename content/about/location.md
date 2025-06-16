@@ -3,4 +3,4 @@ title: Location, Location, Location
 date: 2025-06-06T13:31:28-07:00
 draft: false
 ---
-One of the big changes is where we are located. Boiler Records was formed in Edmonton, Alberta, Canada. In the Forty years since I have been through a number of career changes and the most recent has been in technology. The work evenually led me to an opportunity to work in Southern California, in around the Los Angeles area. The new home for Boiler Music Group is in the Los Angeles area.
+One significant change is our new location. Boiler Records was originally founded in Edmonton, Alberta, Canada. Over the past forty years, I have undergone various career shifts, with the latest being in technology. This journey eventually brought me to Southern California, near Los Angeles. The new home for Boiler Music Group is now in the Los Angeles area.

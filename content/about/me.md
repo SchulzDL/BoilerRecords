@@ -4,4 +4,4 @@ date: 2025-06-03T13:31:28-07:00
 draft: false
 ---
 
-Back in 1980 an independent Canadian Record label put out a single on 7 inch vinal under the name of Boiler Records. The artist went by the name of "Thunderfoot" which was a group of musician friends and singers that put this single together under the direction of Donald L. Schulz and Richard G. Bell. After a break of 45 years, Boiler Music Group is the come back story of that long forgotten Label.
+In 1980, an independent Canadian record label, Boiler Records, released a single on 7-inch vinyl. The artist, known as "Thunderfoot," was a collective of musician friends and singers, directed by Donald L. Schulz and Richard G. Bell. After a 45-year hiatus, Boiler Music Group is making a comeback, reviving the legacy of that long-forgotten label.

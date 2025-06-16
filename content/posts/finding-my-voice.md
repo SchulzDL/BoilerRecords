@@ -23,4 +23,4 @@ Release Date: **August 13, 2025**
 
 <!--more-->
 
-This is the journey of how the artist **"The Donald Schulz Project"** was able to find his voice and be able to say in words and music. How from what started out as a grief too hard to understand at the age of eleven with music being the way he dealt with the pain because he was not able to put this into words. After 50 years with a marriage of 24 years and lots of therapy he was now able to write the words he was not able to say back then. Listen to this album from end to end in the specified order to get the whole story.
+This is the story of "The Donald Schulz Project" and how the artist discovered his voice through words and music. It began with a grief too overwhelming to comprehend at the age of eleven, where music became his refuge as he couldn't express his pain verbally. After fifty years, a marriage of twenty-four years and extensive therapy, he finally found the words he couldn't say back then. To fully experience this journey, listen to the album from beginning to end in the specified order.
