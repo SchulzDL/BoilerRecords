@@ -14,7 +14,12 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="{{ T "flip" }}">
         <div >
-          <img src="{{ site.Params.avatar | relURL }}" alt="{{ site.Params.headerTitle }}" />
+          {{/*  {{ if not isDark }}  */}}
+             <img src="{{ site.Params.avatar | relURL }}" alt="{{ site.Params.headerTitle }}" />
+          {{/*  {{ end }}
+          {{ if isDark) }} */}}
+             {{/*  <img src="{{ site.Params.avatarDark | relURL }}" alt="{{ site.Params.headerTitle }}" />            */}}
+          {{/*{{ end }}  */}}
         </div>
       </div>
 

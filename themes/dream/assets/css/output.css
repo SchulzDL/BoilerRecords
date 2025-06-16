@@ -907,7 +907,7 @@
     vertical-align: middle;
     & > div {
       display: block;
-      aspect-ratio: 1 / 1;
+      /* aspect-ratio: 1 / 1; */
       overflow: hidden;
     }
     img {
