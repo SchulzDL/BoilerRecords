@@ -1,0 +1,13 @@
+<div class="roster roster-summary">
+    {{ if .Params.icon }}
+    <div class="roster-image">
+      <img src="{{ .Site.BaseURL }}{{ .Params.icon }}"/>
+    </div>
+    {{ end }}
+    <div class="roster-content">
+      <h2 class="roster-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+      {{ .Content | truncate 120 "..." }}
+    </div>
+  </div>

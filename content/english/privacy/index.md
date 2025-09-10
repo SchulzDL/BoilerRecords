@@ -1,8 +1,7 @@
-+++
-title = "Privacy Policy"
-date = "2025-07-10"
-nocomments = true
-+++
+---
+title: "Privacy Policy"
+date: "2025-07-10"
+---
 
 The Boiler Music Group (collectively, “Boiler Music Group”, “us”, or “we”) are committed to protecting your privacy. This Privacy Statement describes The Boiler Music Group’ information practices and the choices available to you regarding The Boiler Music Group’ use of information that might be collected.
 
