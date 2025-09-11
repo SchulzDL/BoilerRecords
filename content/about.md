@@ -1,0 +1,13 @@
++++
+title = "About The Boiler Music Group"
+date = "2023-02-04"
+menu = "main"
+image = "/images/BoilerRecords-v2.png"
+nocomments = true
++++
+
+In 1980, an independent Canadian record label, Boiler Records, released a single on 7-inch vinyl. The artist, known as "Thunderfoot," was a collective of musician friends and singers, directed by Donald L. Schulz and Richard G. Bell. After a 45-year hiatus, Boiler Music Group is making a comeback, reviving the legacy of that long-forgotten label.
+
+One significant change is our new location. Boiler Records was originally founded in Edmonton, Alberta, Canada. Over the past forty years, I have undergone various career shifts, with the latest being in technology. This journey eventually brought me to Southern California, near Los Angeles. The new home for Boiler Music Group is now in the Los Angeles area.
+
+The artists featured on this label are storytellers. While some artists excel at conveying emotions, our focus is on those who tell stories through their songs. This label caters to storytellers, echoing the early art of the songwriter. Much like the minstrels who traveled from town to town sharing tales of their journeys and experiences, our artists bring their stories to life through music. The albums are based on concepts and not just a collection of songs which are like situation comedies but instead like an 8 part mystery series and really giving some depth to the overall concept.

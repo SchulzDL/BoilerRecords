@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+	<head>
+		<title> {{ .Site.Title }} </title>
+
+		{{ partial "head.html" . }}
+
+	</head>
+	<body>
+		{{ partial "header.html" . }}
+		<div class="flex-wrapper">
+			<main class="container">
+				{{ with .Site.Params.ProfilePicture }}
+				<div class="row">
+					<div class="col-sm-3 col-centered text-center">
+						<img alt="profile-picture" class="img-fluid" src="{{.}}">
+					</div>
+				</div>
+				{{ end }}
+				<div class="row">
+					<div class="col-xs-12 user-profile text-center">
+						<h1 id="user-name">{{ .Site.Title }}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 user-social text-center">
+					{{ partial "social.html" . }}
+					</div>
+				</div>
+				{{ with .Site.Params.About }}
+				<div class="row">
+					<div class="col-lg-4 offset-lg-4 user-description text-center">
+						<p>{{ . }}</p>
+					</div>
+				</div>
+				{{ end }}
+
+				{{ if .Site.Params.blogOnIndex }}
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<h1>Blog</h1>
+					</div>
+				</div>
+				{{ partial "postlist.html" . }}
+				{{ end }}
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+		<!-- Default Statcounter code for The Donald Schulz Project
+		https://www.donaldschulz.com -->
+		<script type="text/javascript">
+			var sc_project=12867402; 
+			var sc_invisible=1; 
+			var sc_security="8a76a67e"; 
+			</script>
+			<script type="text/javascript"
+			src="https://www.statcounter.com/counter/counter.js" async></script>
+			<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+			Statcounter" href="https://statcounter.com/" target="_blank"><img
+			class="statcounter" src="https://c.statcounter.com/12867402/0/8a76a67e/1/"
+			alt="Web Analytics Made Easy - Statcounter"
+			referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+			<!-- End of Statcounter Code -->		
+	</body>
+</html>
