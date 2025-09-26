@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+        {{ partial "head.html" . }}
+
+        977839926982100        
+
+    </head>
+
+    <body>
+        {{ partial "header.html" . }}
+        <div class="flex-wrapper">
+            <div class="container wrapper">
+                <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                {{ if .Date }}
+                <span class="post-date">{{ .Date.Format "2006-01-02 " }}</span>
+                {{ end }}
+                <br/>
+
+                <div class="post-content">
+                    {{ if .Params.Image }}
+                        {{ if .Params.Size }}
+                        <img src="{{ .Params.Image }}" width="{{ .Params.Size }}" style="float: left; border:0 margin: 15px 15px 15px 15px; padding-right: 10px;" />
+                        {{ else }}
+                        <img src="{{ .Params.Image }}" width="200" style="float: left; border:0 margin: 15px 15px 15px 15px; padding-right: 10px;" />
+                        {{ end }}
+                    {{ end }}
+                    {{ if .Params.FeatureId }}
+                    <iframe width="500" height="500" style="float: left; border:0 margin:15px 15px 15px 15px; padding-right:10px;" 
+                        src="https://launch.donaldschulz.com/{{ .Params.FeatureId }}/widget?width='500'&height='500'&note=">
+                    </iframe>
+                    {{ end }}
+                    {{ .Content }}
+                </div>
+                {{ if .Params.soundCloudId }}
+                    {{ partial "player.html" }}
+                {{ end }}
+                {{ if ne .Params.nocomments true }}
+                <div class="post-comments">
+                    {{ template "_internal/disqus.html" . }}
+                </div>
+                {{ end }}
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+        <!-- Default Statcounter code for The Donald Schulz Project
+        https://www.donaldschulz.com -->
+        <script type="text/javascript">
+            var sc_project=12867402; 
+            var sc_invisible=1; 
+            var sc_security="8a76a67e"; 
+            </script>
+            <script type="text/javascript"
+            src="https://www.statcounter.com/counter/counter.js" async></script>
+            <noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+            Statcounter" href="https://statcounter.com/" target="_blank"><img
+            class="statcounter" src="https://c.statcounter.com/12867402/0/8a76a67e/1/"
+            alt="Web Analytics Made Easy - Statcounter"
+            referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+            <!-- End of Statcounter Code -->        
+    </body>

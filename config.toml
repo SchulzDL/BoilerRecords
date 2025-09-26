@@ -1,0 +1,40 @@
+baseURL = "/"
+languageCode = "en-us"
+title = 'Boiler Music Group'
+theme = "hugo-theme-nix2"
+disqusShortname = ""
+
+[menu]
+  [[menu.header]]
+    name = "roster"
+    weight = 0
+    url = "roster"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+  [[menu.header]]
+    name = "releases"
+    weight = 2
+    url = "release"
+
+[parms]
+  GithubID = ""
+  TwitterID = "donaldlschulz"
+  LinkedInID = "donald-schulz-6b72833"
+  MediumID = ""
+  SpotifyID = "3w5iapzy08107ukj6p4gi6vgi"
+  SoundcloudID = "thunderfoot-430950952"
+  YoutubeID = "channel/UCMNgXQ9FN2OyK2KxplH-I2Q"
+  TelegramID = ""
+  InstagramID = "SchulzDL2"
+  FacebookID = "100090232907939"
+  HeaderHostname = "Boiler Music Group (BMG)"
+  HeaderUsername = ""
+  ProfilePicture = "images/logo.png"
+  Favicon = "images/favicon.png"
+  About = "Welcome to the official website of The Boiler Music Group. Home of Boiler Records"    
+  Name = "Boiler Music Group"
+  Email = "donald@boilermusicgroup.com"
+  BlogOnIndex = false
+  RSSURL = "index.xml"
