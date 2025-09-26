@@ -4,7 +4,7 @@ description = "A sad song about a hard breakup."
 tags =  [
     "history"
 ]
-date = "2025-09-11"
+date = ""
 categories = [
     "Roster"
 ]

@@ -10,17 +10,16 @@
 		{{ partial "header.html" . }}
 		<div class="flex-wrapper">
 			<main class="container">
-				{{/*  {{ with .Site.Params.ProfilePicture }}  */}}
+				{{ with .Site.Params.ProfilePicture }}
 				<div class="row">
 					<div class="col-sm-3 col-centered text-center">
-						{{/*  <img alt="profile" class="img-fluid" src="{{.}}">  */}}
-						<img src="images/logo.png" alt="Logo" class="img-fluid" />
+						<img alt="profile" src="{{.}}">
 					</div>
 				</div>
-				{{/*  {{ end }}  */}}
+				{{ end }}
 				<div class="row">
 					<div class="col-xs-12 user-profile text-center">
-						<h1 id="user-name">{{ .Site.Title }}</h1>
+						<h1 id="user-name">{{ .Site.Params.Name }}</h1>
 					</div>
 				</div>
 				<div class="row">
@@ -35,7 +34,6 @@
 					</div>
 				</div>
 				{{ end }}
-
 				{{ if .Site.Params.blogOnIndex }}
 				<div class="row">
 					<div class="col-xs-12 text-center">
@@ -44,14 +42,8 @@
 				</div>
 				{{ partial "postlist.html" . }}
 				{{ end }}
-				<div class="row">
-					<div class="col-xs-12 text-center">
-						<h1>Welcome</h1>
-					</div>
-					{{ partial "homepage.html" . }}
-				</div>
 			</main>
 			{{ partial "footer.html" . }}
-		</div>		
+		</div>
 	</body>
 </html>

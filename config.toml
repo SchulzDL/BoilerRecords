@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = 'Boiler Music Group'
 theme = "hugo-theme-nix2"
+disqusShortname = ""
 
 [menu]
   [[menu.header]]
@@ -29,9 +30,11 @@ theme = "hugo-theme-nix2"
   InstagramID = "SchulzDL2"
   FacebookID = "100090232907939"
   HeaderHostname = "Boiler Music Group (BMG)"
-  HeaderUsername = "Boiler Music Group"
+  HeaderUsername = ""
   ProfilePicture = "images/logo.png"
   Favicon = "images/favicon.png"
   About = "Welcome to the official website of The Boiler Music Group. Home of Boiler Records"    
   Name = "Boiler Music Group"
   Email = "donald@boilermusicgroup.com"
+  BlogOnIndex = false
+  RSSURL = "index.xml"

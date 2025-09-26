@@ -1,7 +1,6 @@
 ---
 title: Finding My Voice
-date: 2025-06-03T13:46:04-07:00
-lastmod: 2025-06-03T13:46:04-07:00
+
 author: The Donald Schulz Project
 # avatar: /img/author.jpg
 authorlink: https://the-DSP.com

@@ -1,6 +1,6 @@
 +++
 title = "About The Boiler Music Group"
-date = "2023-02-04"
+date = ""
 menu = "main"
 image = "/images/BoilerRecords-v2.png"
 nocomments = true
