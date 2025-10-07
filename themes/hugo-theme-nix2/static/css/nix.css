@@ -10,6 +10,7 @@ body {
 	background-color: #fdfdfd;
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
+	
 }
 
 img {
@@ -33,7 +34,7 @@ img {
 }
 
 .font-paragraph {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Dorsa', sans-serif;
 }
 
 nav {
@@ -47,7 +48,7 @@ nav {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Concert One', cursive;
+	font-family: 'Limelight', cursive;
 }
 
 #user-name {
