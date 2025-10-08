@@ -6,10 +6,19 @@ html {
 	height: 100%;
 }
 
+@font-face {
+  font-family: "Le Spegge"; /* A name for your font */
+  src: url("/fonts/LE SPEGGE.otf") format("opentype"); /* Path relative to the static folder */       
+  font-weight: normal; /* Or bold, etc. */
+  font-style: normal; /* Or italic, etc. */
+  font-display: swap; /* Recommended for performance */
+}
+
+
 body {
 	background-color: #fdfdfd;
 	height: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Le Spegge', sans-serif;
 	
 }
 
@@ -34,7 +43,8 @@ img {
 }
 
 .font-paragraph {
-	font-family: 'Dorsa', sans-serif;
+	font-family: 'Le Spegge', sans-serif;
+	font-size: 1.5em;
 }
 
 nav {
@@ -49,6 +59,11 @@ nav {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Limelight', cursive;
+}
+
+p {
+	font-family: 'Le Spegge', sans-serif;
+	font-size: 2.0em;
 }
 
 #user-name {
