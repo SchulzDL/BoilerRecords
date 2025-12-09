@@ -7,6 +7,7 @@ authorlink: https://the-DSP.com
 cover: /img/FindingMyVoice-v2.png
 # images:
 #   - /img/cover.jpg
+image: /images/FindingMyVoice-v2.png
 categories:
   - "The Donald Schulz Project"
 tags:
@@ -18,7 +19,7 @@ tags:
 # draft: true
 ---
 
-Release Date: **October 31, 2025**
+Release Date: **December 22, 2025**
 
 <!--more-->
 
