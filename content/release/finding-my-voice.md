@@ -4,10 +4,10 @@ title: Finding My Voice
 author: The Donald Schulz Project
 # avatar: /img/author.jpg
 authorlink: https://the-DSP.com
-cover: /img/FindingMyVoice-v2.png
+cover: 
 # images:
 #   - /img/cover.jpg
-image: /images/FindingMyVoice-v2.png
+image: 
 categories:
   - "The Donald Schulz Project"
 tags:
@@ -17,6 +17,7 @@ tags:
 # nolastmod: true
 # math: true
 # draft: true
+featureId: qvarexa
 ---
 
 Release Date: **December 22, 2025**
